@@ -35,7 +35,7 @@ You need to give 2 parameters to the component.
 
 ### Example
 
-```java script
+```JavaScript
 import Mohpher from "react-text-mopher";
 
 const texts = {
