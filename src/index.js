@@ -1,11 +1,4 @@
 import React, { useState, useEffect } from "react"
-import styled from "styled-components"
-import { Link } from "gatsby";
-
-export const NavLink = styled(Link)`
-  text-decoration: none;
-  }
-`
 
 const Morpher = (props) => {
   const [state, setState] = useState(props.texts)
