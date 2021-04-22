@@ -9,7 +9,7 @@ It is awesome, isn't it?
 ## Installation
 
 ```
-npm i react-txt-morpher
+npm i react-text-morpher
 ```
 
 or 
