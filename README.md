@@ -8,16 +8,11 @@ It is awesome, isn't it?
 
 ## Installation
 
-```
-npm i react-text-morpher
-```
-
-or 
+Run 
 
 ```
 git clone https://github.com/ozora-ogino/react-text-morpher
 ```
-
 
 ## Usage 
 
@@ -36,7 +31,7 @@ You need to give 2 parameters to the component.
 ### Example
 
 ```JavaScript
-import Mohpher from "react-text-mopher";
+import Mohpher from "./react-text-mopher/index";
 
 const texts = {
   text: "example",
@@ -59,6 +54,5 @@ export default = () => {
 ```
 
 ## Contribution
-
 
 Contribution is more than welcome.
