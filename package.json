@@ -19,10 +19,6 @@
     "url": "https://github.com/ozora-ogino/react-text-morpher/issues"
   },
   "homepage": "https://github.com/ozora-ogino/react-text-morpher#readme",
-  "devDependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.13.8"
-  },
-  "dependencies": {
-    "@babel/preset-react": "^7.13.13"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
