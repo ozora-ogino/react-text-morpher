@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext } from "react"
-import { ThemeContext } from 'providers/ThemeProvider';
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby";
 
@@ -9,7 +8,6 @@ export const NavLink = styled(Link)`
 `
 
 const Morpher = (props) => {
-  const { theme } = useContext(ThemeContext)
   const [state, setState] = useState(props.texts)
 
   // loops over chars to morph a text to another
@@ -134,17 +132,7 @@ const Morpher = (props) => {
       default: return <p>{state.text}</p>; break;
     }
   }
-
-
-  if (props.to === undefined) {
-    return content()
-  } else {
-    return (
-      <NavLink to={props.to} theme={theme}>
-        {content()}
-      </NavLink>
-    )
-  }
+  return content()
 }
 
 export default Morpher
