@@ -8,7 +8,7 @@ export const NavLink = styled(Link)`
   }
 `
 
-export const Morpher = (props) => {
+const Morpher = (props) => {
   const { theme } = useContext(ThemeContext)
   const [state, setState] = useState(props.texts)
 
@@ -126,14 +126,14 @@ export const Morpher = (props) => {
   }, [])
 
   const content = () => {
-      switch(props.element) {
-        case "h1": return <h1>{state.text}</h1>; break;
-        case "h2": return <h2>{state.text}</h2>; break;
-        case "h3": return <h3>{state.text}</h3>; break;
-        case "h4": return <h4>{state.text}</h4>; break;
-        default: return <p>{state.text}</p>; break;
-      }
+    switch (props.element) {
+      case "h1": return <h1>{state.text}</h1>; break;
+      case "h2": return <h2>{state.text}</h2>; break;
+      case "h3": return <h3>{state.text}</h3>; break;
+      case "h4": return <h4>{state.text}</h4>; break;
+      default: return <p>{state.text}</p>; break;
     }
+  }
 
   return (
     <NavLink to="/" theme={theme}>
@@ -141,3 +141,5 @@ export const Morpher = (props) => {
     </NavLink>
   )
 }
+
+export default Morpher
