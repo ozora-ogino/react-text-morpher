@@ -135,11 +135,16 @@ const Morpher = (props) => {
     }
   }
 
-  return (
-    <NavLink to="/" theme={theme}>
-      {content()}
-    </NavLink>
-  )
+
+  if (props.to === undefined) {
+    return content()
+  } else {
+    return (
+      <NavLink to={props.to} theme={theme}>
+        {content()}
+      </NavLink>
+    )
+  }
 }
 
 export default Morpher

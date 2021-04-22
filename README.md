@@ -60,6 +60,5 @@ export default = () => {
 
 ## Contribution
 
-I'm not a React expert.
 
-Therefore contribution is more than welcome.
+Contribution is more than welcome.
