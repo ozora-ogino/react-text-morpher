@@ -3,7 +3,7 @@ React Text Morpher is a react commponent which morphered over multi texts.
 
 You can clone and use it inside of your React project.
 
-You can see an example on [my portfolio site](https://ozora-ogino.com)
+You can see an example on top of  [my portfolio site](https://ozora-ogino.com).
 
 It is awesome, isn't it?
 
